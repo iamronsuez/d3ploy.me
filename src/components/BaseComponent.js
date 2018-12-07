@@ -11,7 +11,6 @@ export default class Base extends Component {
   }
 
   components (name) {
-    console.log(name)
     return {
       header: HeaderDefault,
       hero: Hero,
